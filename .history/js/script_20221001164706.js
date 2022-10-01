@@ -1,13 +1,7 @@
 "use strict";
 
-const arr = [2, 3, 6, 8, 10];
-arr.sort();
-console.log(arr);
+// const arr = [2, 3, 6, 8, 10];
 
-
-// function compareNum(a, b){
-//     return a - b;
-// }
 // // arr[99] = 0;
 
 // // console.log(arr.length)
@@ -17,10 +11,10 @@ console.log(arr);
 //     console.log(`${i}: ${item} vnutri massiva ${arr}`)
 // });
 
-// const str = prompt("","");
-// const products = str.split(",");
-// products.sort();
-// console.log(products.join('; '));
+const str = prompt("","");
+const products = str.split(",");
+products.sort();
+console.log(products.join('; '));
 
 
 
