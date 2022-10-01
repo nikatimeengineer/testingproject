@@ -87,14 +87,3 @@ function log(a, b, c) {
 const num = [2, 5, 7];
 
 log(...num);
-
-const array = ["a", "b"];
-
-const newAaray = [...array];
-
-const q = {
-    one: 1,
-    two: 2
-};
-
-const newObj = {...q};
