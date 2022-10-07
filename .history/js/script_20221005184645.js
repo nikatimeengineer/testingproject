@@ -18,15 +18,15 @@
 function createCounter() {
     let counter = 0;
 
-    const myFunction = function() {debugger
+    const myFunction = function() {
         counter = counter + 1;debugger
-        return counter;debugger
+        return counter;
     }
     
     return myFunction;
 }
-debugger
-const increment = createCounter();debugger
+
+const increment = createCounter();
 const c1 = increment();debugger
 const c2 = increment();debugger
 const c3 = increment();debugger
